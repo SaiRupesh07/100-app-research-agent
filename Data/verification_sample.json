@@ -1,0 +1,1876 @@
+{
+  "metadata": {
+    "total_in_sample": 20,
+    "total_apps_in_dataset": 100,
+    "apps_per_category": 2,
+    "description": "Representative sample for human verification"
+  },
+  "apps": [
+    {
+      "id": 91,
+      "app_name": "NotebookLM",
+      "category": "AI, Research and Media-Native",
+      "description": "AI-powered research assistant by Google.",
+      "auth_methods": [
+        "OAuth2"
+      ],
+      "credential_model": "self-serve",
+      "self_serve": true,
+      "free_or_trial": null,
+      "paid_plan_required": null,
+      "admin_approval_required": null,
+      "partner_or_contact_sales": null,
+      "access_model": "Self-serve Free",
+      "api_types": [
+        "Other"
+      ],
+      "api_breadth": "Very Narrow",
+      "api_notes": "No public API available.",
+      "mcp_available": false,
+      "mcp_type": "No MCP Found",
+      "mcp_url": null,
+      "buildability": "Buildable with friction",
+      "main_blocker": "Limited API surface",
+      "buildability_reason": "API available (very narrow) but limited API surface.",
+      "evidence": [
+        {
+          "claim": "No public API",
+          "url": "https://cloud.google.com/gemini",
+          "source_type": "official_docs"
+        }
+      ],
+      "confidence": "Medium",
+      "research_status": "partial",
+      "source_discovery": {
+        "official_base_url": "https://support.google.com/notebooklm/",
+        "retrieved_pages": 1,
+        "source_count": 1,
+        "errors": []
+      },
+      "last_checked": "2026-08-18T14:19:32.598018"
+    },
+    {
+      "id": 92,
+      "app_name": "Otter AI",
+      "category": "AI, Research and Media-Native",
+      "description": "AI transcription and meeting notes.",
+      "auth_methods": [
+        "OAuth2"
+      ],
+      "credential_model": "self-serve",
+      "self_serve": true,
+      "free_or_trial": null,
+      "paid_plan_required": null,
+      "admin_approval_required": null,
+      "partner_or_contact_sales": null,
+      "access_model": "Self-serve Free",
+      "api_types": [
+        "REST"
+      ],
+      "api_breadth": "Narrow",
+      "api_notes": "Conversations and notes.",
+      "mcp_available": false,
+      "mcp_type": "No MCP Found",
+      "mcp_url": null,
+      "buildability": "Buildable with friction",
+      "main_blocker": "Limited API surface",
+      "buildability_reason": "API available (narrow) but limited API surface.",
+      "evidence": [
+        {
+          "claim": "API documentation",
+          "url": "https://help.otter.ai",
+          "source_type": "official_docs"
+        }
+      ],
+      "confidence": "Medium",
+      "research_status": "unknown",
+      "source_discovery": {
+        "official_base_url": null,
+        "retrieved_pages": 0,
+        "source_count": 0,
+        "errors": [
+          "No known official documentation domain."
+        ]
+      },
+      "last_checked": "2026-08-18T14:19:32.598018"
+    },
+    {
+      "id": 1,
+      "app_name": "Salesforce",
+      "category": "CRM and Sales",
+      "description": "Cloud-based customer relationship management platform.",
+      "auth_methods": [
+        "OAuth2",
+        "JWT"
+      ],
+      "credential_model": "self-serve",
+      "self_serve": true,
+      "free_or_trial": null,
+      "paid_plan_required": null,
+      "admin_approval_required": null,
+      "partner_or_contact_sales": null,
+      "access_model": "Self-serve Free",
+      "api_types": [
+        "REST",
+        "GraphQL",
+        "SOAP"
+      ],
+      "api_breadth": "Broad",
+      "api_notes": "Comprehensive API covering sales, service, analytics, and more.",
+      "mcp_available": true,
+      "mcp_type": "Official MCP",
+      "mcp_url": "https://developer.salesforce.com",
+      "buildability": "Buildable now",
+      "main_blocker": null,
+      "buildability_reason": "Public broad API with OAuth2, JWT authentication. Self-serve access via Self-serve Free.",
+      "evidence": [
+        {
+          "claim": "OAuth2 authentication",
+          "url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_understanding_authentication.htm",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "REST API",
+          "url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://developer.salesforce.com",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://developer.salesforce.com",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://developer.salesforce.com/blogs/2026/04/new-developer-edition-agentforce-vibes-claude-mcp",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://developer.salesforce.com/blogs/2026/04/new-developer-edition-agentforce-vibes-claude-mcp",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://developer.salesforce.com/blogs/2026/05/expose-custom-apex-as-a-hosted-mcp-tool-for-agents",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://developer.salesforce.com/blogs/2026/05/expose-custom-apex-as-a-hosted-mcp-tool-for-agents",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://developer.salesforce.com/blogs/2026/05/expose-custom-apex-as-a-hosted-mcp-tool-for-agents",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://developer.salesforce.com/blogs/2026/07/announcing-the-headless-360-mcp-server-beta",
+          "source_type": "official_mcp"
+        }
+      ],
+      "confidence": "High",
+      "research_status": "success",
+      "source_discovery": {
+        "official_base_url": "https://developer.salesforce.com",
+        "retrieved_pages": 5,
+        "source_count": 5,
+        "errors": []
+      },
+      "last_checked": "2026-08-18T14:19:32.598018"
+    },
+    {
+      "id": 2,
+      "app_name": "HubSpot",
+      "category": "CRM and Sales",
+      "description": "Marketing, sales, and service CRM platform.",
+      "auth_methods": [
+        "OAuth2"
+      ],
+      "credential_model": "self-serve",
+      "self_serve": true,
+      "free_or_trial": null,
+      "paid_plan_required": null,
+      "admin_approval_required": null,
+      "partner_or_contact_sales": null,
+      "access_model": "Self-serve Free",
+      "api_types": [
+        "REST",
+        "GraphQL",
+        "Webhook"
+      ],
+      "api_breadth": "Broad",
+      "api_notes": "Covers CRM, marketing, sales, content, and more.",
+      "mcp_available": true,
+      "mcp_type": "Official MCP",
+      "mcp_url": "https://developers.hubspot.com/docs/developer-tooling/overview",
+      "buildability": "Buildable now",
+      "main_blocker": null,
+      "buildability_reason": "Public broad API with OAuth2 authentication. Self-serve access via Self-serve Free.",
+      "evidence": [
+        {
+          "claim": "OAuth2 authentication",
+          "url": "https://developers.hubspot.com/docs/api/working-with-oauth",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://developers.hubspot.com",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://developers.hubspot.com/docs/apps/developer-platform/overview",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://developers.hubspot.com/docs/apps/developer-platform/overview",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://developers.hubspot.com/docs/apps/developer-platform/overview",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://developers.hubspot.com/docs/developer-tooling/overview",
+          "source_type": "official_mcp"
+        }
+      ],
+      "confidence": "High",
+      "research_status": "success",
+      "source_discovery": {
+        "official_base_url": "https://developers.hubspot.com",
+        "retrieved_pages": 5,
+        "source_count": 5,
+        "errors": []
+      },
+      "last_checked": "2026-08-18T14:19:32.598018"
+    },
+    {
+      "id": 22,
+      "app_name": "Twilio",
+      "category": "Communications and Messaging",
+      "description": "Cloud communications platform for voice, SMS, and video.",
+      "auth_methods": [
+        "Basic Auth",
+        "API Key"
+      ],
+      "credential_model": "self-serve",
+      "self_serve": true,
+      "free_or_trial": null,
+      "paid_plan_required": null,
+      "admin_approval_required": null,
+      "partner_or_contact_sales": null,
+      "access_model": "Self-serve Free",
+      "api_types": [
+        "REST",
+        "Webhook"
+      ],
+      "api_breadth": "Broad",
+      "api_notes": "Messages, calls, conversations, and more.",
+      "mcp_available": false,
+      "mcp_type": "No MCP Found",
+      "mcp_url": null,
+      "buildability": "Buildable now",
+      "main_blocker": null,
+      "buildability_reason": "Public broad API with Basic Auth, API Key authentication. Self-serve access via Self-serve Free.",
+      "evidence": [
+        {
+          "claim": "Basic Auth authentication",
+          "url": "https://www.twilio.com/docs/usage/api",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://www.twilio.com/docs",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation contains pricing or plan information.",
+          "url": "https://www.twilio.com/docs",
+          "source_type": "official_pricing"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://www.twilio.com/docs/api/errors",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://www.twilio.com/docs/api/errors",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://www.twilio.com/docs/openapi",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation contains pricing or plan information.",
+          "url": "https://www.twilio.com/en-us/developers",
+          "source_type": "official_pricing"
+        },
+        {
+          "claim": "Documentation contains pricing or plan information.",
+          "url": "https://www.twilio.com/en-us/pricing",
+          "source_type": "official_pricing"
+        }
+      ],
+      "confidence": "High",
+      "research_status": "success",
+      "source_discovery": {
+        "official_base_url": "https://www.twilio.com/docs",
+        "retrieved_pages": 5,
+        "source_count": 5,
+        "errors": []
+      },
+      "last_checked": "2026-08-18T14:19:32.598018"
+    },
+    {
+      "id": 23,
+      "app_name": "Zoho Cliq",
+      "category": "Communications and Messaging",
+      "description": "Team communication and collaboration tool.",
+      "auth_methods": [
+        "OAuth2"
+      ],
+      "credential_model": "self-serve",
+      "self_serve": true,
+      "free_or_trial": null,
+      "paid_plan_required": null,
+      "admin_approval_required": null,
+      "partner_or_contact_sales": null,
+      "access_model": "Self-serve Free",
+      "api_types": [
+        "REST",
+        "Webhook"
+      ],
+      "api_breadth": "Moderate",
+      "api_notes": "Messages, channels, and users.",
+      "mcp_available": false,
+      "mcp_type": "No MCP Found",
+      "mcp_url": null,
+      "buildability": "Buildable now",
+      "main_blocker": null,
+      "buildability_reason": "Public moderate API with OAuth2 authentication. Self-serve access via Self-serve Free.",
+      "evidence": [
+        {
+          "claim": "OAuth2 authentication",
+          "url": "https://www.zoho.com/cliq/developer/api/",
+          "source_type": "official_docs"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/#overview",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/#overview",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation contains pricing or plan information.",
+          "url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/#overview",
+          "source_type": "official_pricing"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://www.zoho.com/cliq/help/restapi/v2/oauth/",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://www.zoho.com/cliq/help/restapi/v2/oauth/",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation contains pricing or plan information.",
+          "url": "https://www.zoho.com/cliq/help/restapi/v2/oauth/",
+          "source_type": "official_pricing"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://www.zoho.com/cliq/help/restapi/v2/bots/",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://www.zoho.com/cliq/help/restapi/v2/bots/",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation contains pricing or plan information.",
+          "url": "https://www.zoho.com/cliq/help/restapi/v2/bots/",
+          "source_type": "official_pricing"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://www.zoho.com/cliq/help/restapi/v2/bulkexport/",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation contains pricing or plan information.",
+          "url": "https://www.zoho.com/cliq/help/restapi/v2/bulkexport/",
+          "source_type": "official_pricing"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://www.zoho.com/cliq/help/restapi/v2/buttons/",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://www.zoho.com/cliq/help/restapi/v2/buttons/",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation contains pricing or plan information.",
+          "url": "https://www.zoho.com/cliq/help/restapi/v2/buttons/",
+          "source_type": "official_pricing"
+        }
+      ],
+      "confidence": "High",
+      "research_status": "success",
+      "source_discovery": {
+        "official_base_url": "https://www.zoho.com/cliq/help/restapi/",
+        "retrieved_pages": 5,
+        "source_count": 5,
+        "errors": []
+      },
+      "last_checked": "2026-08-18T14:19:32.598018"
+    },
+    {
+      "id": 56,
+      "app_name": "Firecrawl",
+      "category": "Data, SEO and Scraping",
+      "description": "Web crawling and scraping API.",
+      "auth_methods": [
+        "Bearer Token",
+        "API Key",
+        "OAuth2"
+      ],
+      "credential_model": "self-serve",
+      "self_serve": true,
+      "free_or_trial": null,
+      "paid_plan_required": null,
+      "admin_approval_required": null,
+      "partner_or_contact_sales": null,
+      "access_model": "Self-serve Free",
+      "api_types": [
+        "REST",
+        "Webhook"
+      ],
+      "api_breadth": "Moderate",
+      "api_notes": "Crawl and extract data.",
+      "mcp_available": true,
+      "mcp_type": "Official MCP",
+      "mcp_url": "https://docs.firecrawl.dev/introduction",
+      "buildability": "Buildable now",
+      "main_blocker": null,
+      "buildability_reason": "Public moderate API with Bearer Token, API Key, OAuth2 authentication. Self-serve access via Self-serve Free.",
+      "evidence": [
+        {
+          "claim": "Bearer Token authentication",
+          "url": "https://firecrawl.dev/api",
+          "source_type": "official_docs"
+        },
+        {
+          "claim": "Documentation mentions API key authentication.",
+          "url": "https://docs.firecrawl.dev/introduction",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://docs.firecrawl.dev/introduction",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://docs.firecrawl.dev/introduction",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions API key authentication.",
+          "url": "https://docs.firecrawl.dev/advanced-scraping-guide",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://docs.firecrawl.dev/advanced-scraping-guide",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://docs.firecrawl.dev/advanced-scraping-guide",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions API key authentication.",
+          "url": "https://docs.firecrawl.dev/api-reference/endpoint/scrape",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://docs.firecrawl.dev/api-reference/endpoint/scrape",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://docs.firecrawl.dev/api-reference/endpoint/scrape",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions API key authentication.",
+          "url": "https://docs.firecrawl.dev/api-reference/v2-introduction",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://docs.firecrawl.dev/api-reference/v2-introduction",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://docs.firecrawl.dev/api-reference/v2-introduction",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://docs.firecrawl.dev/mcp-server",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions API key authentication.",
+          "url": "https://docs.firecrawl.dev/mcp-server",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions Bearer token authentication.",
+          "url": "https://docs.firecrawl.dev/mcp-server",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://docs.firecrawl.dev/mcp-server",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://docs.firecrawl.dev/mcp-server",
+          "source_type": "official_mcp"
+        }
+      ],
+      "confidence": "High",
+      "research_status": "success",
+      "source_discovery": {
+        "official_base_url": "https://docs.firecrawl.dev",
+        "retrieved_pages": 5,
+        "source_count": 5,
+        "errors": []
+      },
+      "last_checked": "2026-08-18T14:19:32.598018"
+    },
+    {
+      "id": 57,
+      "app_name": "Bright Data",
+      "category": "Data, SEO and Scraping",
+      "description": "Proxy and data collection platform.",
+      "auth_methods": [
+        "Bearer Token",
+        "API Key"
+      ],
+      "credential_model": "self-serve",
+      "self_serve": true,
+      "free_or_trial": null,
+      "paid_plan_required": null,
+      "admin_approval_required": null,
+      "partner_or_contact_sales": null,
+      "access_model": "Self-serve Paid",
+      "api_types": [
+        "REST",
+        "SDK"
+      ],
+      "api_breadth": "Broad",
+      "api_notes": "Proxies, scrapers, and data.",
+      "mcp_available": true,
+      "mcp_type": "Official MCP",
+      "mcp_url": "https://docs.brightdata.com/introduction",
+      "buildability": "Buildable with friction",
+      "main_blocker": "Paid plan",
+      "buildability_reason": "API available (broad) but paid plan may be needed.",
+      "evidence": [
+        {
+          "claim": "Bearer Token authentication",
+          "url": "https://brightdata.com/api",
+          "source_type": "official_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://docs.brightdata.com/introduction",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions API key authentication.",
+          "url": "https://docs.brightdata.com/api-reference/authentication",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation contains pricing or plan information.",
+          "url": "https://docs.brightdata.com/api-reference/authentication",
+          "source_type": "official_pricing"
+        },
+        {
+          "claim": "Documentation contains pricing or plan information.",
+          "url": "https://docs.brightdata.com/api-reference/SDK",
+          "source_type": "official_pricing"
+        },
+        {
+          "claim": "Documentation mentions API key authentication.",
+          "url": "https://docs.brightdata.com/api-reference/SDK-JS",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation contains pricing or plan information.",
+          "url": "https://docs.brightdata.com/api-reference/SDK-JS",
+          "source_type": "official_pricing"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://docs.brightdata.com/ai/mcp-server/overview",
+          "source_type": "official_mcp"
+        }
+      ],
+      "confidence": "High",
+      "research_status": "success",
+      "source_discovery": {
+        "official_base_url": "https://docs.brightdata.com",
+        "retrieved_pages": 5,
+        "source_count": 5,
+        "errors": []
+      },
+      "last_checked": "2026-08-18T14:19:32.598018"
+    },
+    {
+      "id": 61,
+      "app_name": "GitHub",
+      "category": "Developer, Infra and Data Platforms",
+      "description": "Code hosting and collaboration platform.",
+      "auth_methods": [
+        "OAuth2",
+        "Bearer Token"
+      ],
+      "credential_model": "self-serve",
+      "self_serve": true,
+      "free_or_trial": null,
+      "paid_plan_required": null,
+      "admin_approval_required": null,
+      "partner_or_contact_sales": null,
+      "access_model": "Self-serve Free",
+      "api_types": [
+        "REST",
+        "GraphQL",
+        "Webhook"
+      ],
+      "api_breadth": "Broad",
+      "api_notes": "Repos, issues, actions, and more.",
+      "mcp_available": false,
+      "mcp_type": "No MCP Found",
+      "mcp_url": null,
+      "buildability": "Buildable now",
+      "main_blocker": null,
+      "buildability_reason": "Public broad API with OAuth2, Bearer Token authentication. Self-serve access via Self-serve Free.",
+      "evidence": [
+        {
+          "claim": "OAuth2 authentication",
+          "url": "https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://docs.github.com/en/rest",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://docs.github.com/en/rest",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://docs.github.com/en/rest",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation contains pricing or plan information.",
+          "url": "https://docs.github.com/en/rest",
+          "source_type": "official_pricing"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation contains pricing or plan information.",
+          "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+          "source_type": "official_pricing"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://docs.github.com/en/rest/authentication/keeping-your-api-credentials-secure",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://docs.github.com/en/rest/authentication/keeping-your-api-credentials-secure",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://docs.github.com/en/rest/authentication/keeping-your-api-credentials-secure",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation contains pricing or plan information.",
+          "url": "https://docs.github.com/en/rest/authentication/keeping-your-api-credentials-secure",
+          "source_type": "official_pricing"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://docs.github.com/en/rest/authentication/endpoints-available-for-fine-grained-personal-access-tokens",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://docs.github.com/en/rest/authentication/endpoints-available-for-fine-grained-personal-access-tokens",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://docs.github.com/en/rest/authentication/endpoints-available-for-fine-grained-personal-access-tokens",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://docs.github.com/en/rest/authentication/endpoints-available-for-github-app-installation-access-tokens",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://docs.github.com/en/rest/authentication/endpoints-available-for-github-app-installation-access-tokens",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://docs.github.com/en/rest/authentication/endpoints-available-for-github-app-installation-access-tokens",
+          "source_type": "official_api_docs"
+        }
+      ],
+      "confidence": "High",
+      "research_status": "success",
+      "source_discovery": {
+        "official_base_url": "https://docs.github.com/en/rest",
+        "retrieved_pages": 5,
+        "source_count": 5,
+        "errors": []
+      },
+      "last_checked": "2026-08-18T14:19:32.598018"
+    },
+    {
+      "id": 63,
+      "app_name": "Netlify",
+      "category": "Developer, Infra and Data Platforms",
+      "description": "Jamstack deployment platform.",
+      "auth_methods": [
+        "OAuth2",
+        "Bearer Token"
+      ],
+      "credential_model": "self-serve",
+      "self_serve": true,
+      "free_or_trial": null,
+      "paid_plan_required": null,
+      "admin_approval_required": null,
+      "partner_or_contact_sales": null,
+      "access_model": "Self-serve Free",
+      "api_types": [
+        "REST",
+        "Webhook"
+      ],
+      "api_breadth": "Moderate",
+      "api_notes": "Sites, deployments, and forms.",
+      "mcp_available": false,
+      "mcp_type": "No MCP Found",
+      "mcp_url": null,
+      "buildability": "Buildable now",
+      "main_blocker": null,
+      "buildability_reason": "Public moderate API with OAuth2, Bearer Token authentication. Self-serve access via Self-serve Free.",
+      "evidence": [
+        {
+          "claim": "Bearer Token authentication",
+          "url": "https://docs.netlify.com/api/get-started/#authentication",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://docs.netlify.com/api-and-cli-guides/cli-guides/get-started-with-cli/",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://docs.netlify.com/api-and-cli-guides/cli-guides/get-started-with-cli/",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://docs.netlify.com/api-and-cli-guides/cli-guides/local-development/",
+          "source_type": "official_api_docs"
+        }
+      ],
+      "confidence": "High",
+      "research_status": "success",
+      "source_discovery": {
+        "official_base_url": "https://docs.netlify.com/api/get-started/",
+        "retrieved_pages": 5,
+        "source_count": 5,
+        "errors": []
+      },
+      "last_checked": "2026-08-18T14:19:32.598018"
+    },
+    {
+      "id": 42,
+      "app_name": "WooCommerce",
+      "category": "Ecommerce",
+      "description": "WordPress e-commerce plugin.",
+      "auth_methods": [
+        "OAuth2",
+        "API Key"
+      ],
+      "credential_model": "self-serve",
+      "self_serve": true,
+      "free_or_trial": null,
+      "paid_plan_required": null,
+      "admin_approval_required": null,
+      "partner_or_contact_sales": null,
+      "access_model": "Self-serve Free",
+      "api_types": [
+        "REST"
+      ],
+      "api_breadth": "Broad",
+      "api_notes": "Products, orders, taxes, and more.",
+      "mcp_available": true,
+      "mcp_type": "Official MCP",
+      "mcp_url": "https://developer.woocommerce.com",
+      "buildability": "Buildable now",
+      "main_blocker": null,
+      "buildability_reason": "Public broad API with OAuth2, API Key authentication. Self-serve access via Self-serve Free.",
+      "evidence": [
+        {
+          "claim": "REST API",
+          "url": "https://woocommerce.com/document/woocommerce-rest-api/",
+          "source_type": "official_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://developer.woocommerce.com",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://developer.woocommerce.com",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://developer.woocommerce.com/2026/01/23/call-for-testing-experimental-rest-api-caching-in-woocommerce-10-5/",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions API key authentication.",
+          "url": "https://developer.woocommerce.com/2025/11/03/call-for-testing-woocommerce-mcp-beta/",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://developer.woocommerce.com/2025/11/03/call-for-testing-woocommerce-mcp-beta/",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://developer.woocommerce.com/2025/11/03/call-for-testing-woocommerce-mcp-beta/",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://developer.woocommerce.com/advisories/",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation contains pricing or plan information.",
+          "url": "https://developer.woocommerce.com/advisories/",
+          "source_type": "official_pricing"
+        }
+      ],
+      "confidence": "High",
+      "research_status": "success",
+      "source_discovery": {
+        "official_base_url": "https://developer.woocommerce.com",
+        "retrieved_pages": 5,
+        "source_count": 5,
+        "errors": []
+      },
+      "last_checked": "2026-08-18T14:19:32.598018"
+    },
+    {
+      "id": 46,
+      "app_name": "Squarespace",
+      "category": "Ecommerce",
+      "description": "Website builder with e-commerce capabilities.",
+      "auth_methods": [
+        "OAuth2",
+        "API Key"
+      ],
+      "credential_model": "self-serve",
+      "self_serve": true,
+      "free_or_trial": null,
+      "paid_plan_required": null,
+      "admin_approval_required": null,
+      "partner_or_contact_sales": null,
+      "access_model": "Self-serve Paid",
+      "api_types": [
+        "REST",
+        "Webhook"
+      ],
+      "api_breadth": "Moderate",
+      "api_notes": "Products, orders, and inventory.",
+      "mcp_available": false,
+      "mcp_type": "No MCP Found",
+      "mcp_url": null,
+      "buildability": "Buildable with friction",
+      "main_blocker": "Paid plan required",
+      "buildability_reason": "API available (moderate) but paid plan may be needed.",
+      "evidence": [
+        {
+          "claim": "OAuth2 authentication",
+          "url": "https://developers.squarespace.com/oauth",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://developers.squarespace.com",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://developers.squarespace.com",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://developers.squarespace.com/changes/self-service-oauth-credential-management",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://developers.squarespace.com/changes/self-service-oauth-credential-management",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://developers.squarespace.com/commerce-apis/contacts",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation mentions API key authentication.",
+          "url": "https://developers.squarespace.com/commerce-apis/contacts",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://developers.squarespace.com/commerce-apis/contacts",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://developers.squarespace.com/commerce-apis/overview",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://developers.squarespace.com/commerce-apis/overview",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://developers.squarespace.com/commerce-apis/overview",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://developers.squarespace.com/webhooks/overview",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://developers.squarespace.com/webhooks/overview",
+          "source_type": "third_party"
+        }
+      ],
+      "confidence": "High",
+      "research_status": "success",
+      "source_discovery": {
+        "official_base_url": "https://developers.squarespace.com",
+        "retrieved_pages": 5,
+        "source_count": 5,
+        "errors": []
+      },
+      "last_checked": "2026-08-18T14:19:32.598018"
+    },
+    {
+      "id": 81,
+      "app_name": "Stripe",
+      "category": "Finance and Fintech",
+      "description": "Payment processing platform for online businesses.",
+      "auth_methods": [
+        "API Key"
+      ],
+      "credential_model": "self-serve",
+      "self_serve": true,
+      "free_or_trial": null,
+      "paid_plan_required": null,
+      "admin_approval_required": null,
+      "partner_or_contact_sales": null,
+      "access_model": "Self-serve Free",
+      "api_types": [
+        "REST",
+        "Webhook"
+      ],
+      "api_breadth": "Broad",
+      "api_notes": "Payments, subscriptions, and payouts.",
+      "mcp_available": false,
+      "mcp_type": "No MCP Found",
+      "mcp_url": null,
+      "buildability": "Buildable now",
+      "main_blocker": null,
+      "buildability_reason": "Public broad API with API Key authentication. Self-serve access via Self-serve Free.",
+      "evidence": [
+        {
+          "claim": "API Key authentication",
+          "url": "https://stripe.com/docs/api/authentication",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions API key authentication.",
+          "url": "https://docs.stripe.com/api",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://docs.stripe.com/api",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://docs.stripe.com/api",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions API key authentication.",
+          "url": "https://docs.stripe.com/api/authentication",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://docs.stripe.com/api/authentication",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://docs.stripe.com/api/plans",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation contains pricing or plan information.",
+          "url": "https://docs.stripe.com/api/plans",
+          "source_type": "official_pricing"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://docs.stripe.com/api/account_links",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://docs.stripe.com/api/account_sessions",
+          "source_type": "official_api_docs"
+        }
+      ],
+      "confidence": "High",
+      "research_status": "success",
+      "source_discovery": {
+        "official_base_url": "https://docs.stripe.com/api",
+        "retrieved_pages": 5,
+        "source_count": 5,
+        "errors": []
+      },
+      "last_checked": "2026-08-18T14:19:32.598018"
+    },
+    {
+      "id": 82,
+      "app_name": "Plaid",
+      "category": "Finance and Fintech",
+      "description": "Financial data aggregation API.",
+      "auth_methods": [
+        "API Key",
+        "OAuth2"
+      ],
+      "credential_model": "self-serve",
+      "self_serve": true,
+      "free_or_trial": null,
+      "paid_plan_required": null,
+      "admin_approval_required": null,
+      "partner_or_contact_sales": null,
+      "access_model": "Self-serve Free",
+      "api_types": [
+        "REST",
+        "Webhook"
+      ],
+      "api_breadth": "Broad",
+      "api_notes": "Accounts, transactions, and identity.",
+      "mcp_available": true,
+      "mcp_type": "Official MCP",
+      "mcp_url": "https://plaid.com/docs/api/",
+      "buildability": "Buildable now",
+      "main_blocker": null,
+      "buildability_reason": "Public broad API with API Key, OAuth2 authentication. Self-serve access via Self-serve Free.",
+      "evidence": [
+        {
+          "claim": "API Key authentication",
+          "url": "https://plaid.com/docs/api/",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://plaid.com/docs/api/",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions API key authentication.",
+          "url": "https://plaid.com/docs/api/",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://plaid.com/docs/api/",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://plaid.com/docs/api/",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://plaid.com/docs/api/",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://plaid.com/docs/api/oauth/",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions API key authentication.",
+          "url": "https://plaid.com/docs/api/oauth/",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://plaid.com/docs/api/oauth/",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://plaid.com/docs/api/oauth/",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://plaid.com/docs/api/products/auth/",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions API key authentication.",
+          "url": "https://plaid.com/docs/api/products/auth/",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://plaid.com/docs/api/products/auth/",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://plaid.com/docs/api/products/auth/",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://plaid.com/docs/api/webhooks/",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions API key authentication.",
+          "url": "https://plaid.com/docs/api/webhooks/",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://plaid.com/docs/api/webhooks/",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://plaid.com/docs/api/webhooks/",
+          "source_type": "official_mcp"
+        }
+      ],
+      "confidence": "High",
+      "research_status": "success",
+      "source_discovery": {
+        "official_base_url": "https://plaid.com/docs/api/",
+        "retrieved_pages": 5,
+        "source_count": 5,
+        "errors": []
+      },
+      "last_checked": "2026-08-18T14:19:32.598018"
+    },
+    {
+      "id": 31,
+      "app_name": "Google Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "description": "Advertising platform for Google Search and Display.",
+      "auth_methods": [
+        "OAuth2"
+      ],
+      "credential_model": "self-serve",
+      "self_serve": true,
+      "free_or_trial": null,
+      "paid_plan_required": null,
+      "admin_approval_required": null,
+      "partner_or_contact_sales": null,
+      "access_model": "Self-serve Paid",
+      "api_types": [
+        "REST",
+        "GraphQL"
+      ],
+      "api_breadth": "Broad",
+      "api_notes": "Campaigns, ads, metrics, and more.",
+      "mcp_available": true,
+      "mcp_type": "Official MCP",
+      "mcp_url": "https://developers.google.com/google-ads/api",
+      "buildability": "Buildable with friction",
+      "main_blocker": "Requires active ad spend",
+      "buildability_reason": "API available (broad) but paid plan may be needed.",
+      "evidence": [
+        {
+          "claim": "OAuth2 authentication",
+          "url": "https://developers.google.com/google-ads/api/rest/auth",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://developers.google.com/google-ads/api",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://developers.google.com/google-ads/api",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://developers.google.com/google-ads/api",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://developers.google.com/google-ads/api/docs/oauth/multi-user-authentication",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://developers.google.com/google-ads/api/docs/oauth/multi-user-authentication",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://developers.google.com/google-ads/api/docs/oauth/multi-user-authentication",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://developers.google.com/google-ads/api/docs/oauth/single-user-authentication",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://developers.google.com/google-ads/api/docs/oauth/single-user-authentication",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://developers.google.com/google-ads/api/docs/oauth/single-user-authentication",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://developers.google.com/google-ads/api/docs/oauth/user-authentication",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://developers.google.com/google-ads/api/docs/oauth/user-authentication",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://developers.google.com/google-ads/api/docs/oauth/user-authentication",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://developers.google.com/google-ads/api/videos/catalog/authentication-authorization-1",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://developers.google.com/google-ads/api/videos/catalog/authentication-authorization-1",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://developers.google.com/google-ads/api/videos/catalog/authentication-authorization-1",
+          "source_type": "official_mcp"
+        }
+      ],
+      "confidence": "High",
+      "research_status": "success",
+      "source_discovery": {
+        "official_base_url": "https://developers.google.com/google-ads/api",
+        "retrieved_pages": 5,
+        "source_count": 5,
+        "errors": []
+      },
+      "last_checked": "2026-08-18T14:19:32.598018"
+    },
+    {
+      "id": 32,
+      "app_name": "Meta Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "description": "Advertising platform for Facebook and Instagram.",
+      "auth_methods": [
+        "OAuth2"
+      ],
+      "credential_model": "self-serve",
+      "self_serve": true,
+      "free_or_trial": null,
+      "paid_plan_required": null,
+      "admin_approval_required": null,
+      "partner_or_contact_sales": null,
+      "access_model": "Self-serve Paid",
+      "api_types": [
+        "REST",
+        "GraphQL",
+        "Webhook"
+      ],
+      "api_breadth": "Broad",
+      "api_notes": "Ad sets, campaigns, insights, and more.",
+      "mcp_available": true,
+      "mcp_type": "Official MCP",
+      "mcp_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+      "buildability": "Buildable with friction",
+      "main_blocker": "Ad account required",
+      "buildability_reason": "API available (broad) but paid plan may be needed.",
+      "evidence": [
+        {
+          "claim": "OAuth2 authentication",
+          "url": "https://developers.facebook.com/docs/marketing-apis/authentication/",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation contains pricing or plan information.",
+          "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+          "source_type": "official_pricing"
+        }
+      ],
+      "confidence": "High",
+      "research_status": "success",
+      "source_discovery": {
+        "official_base_url": "https://developers.facebook.com/docs/marketing-apis/",
+        "retrieved_pages": 1,
+        "source_count": 1,
+        "errors": [
+          "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authentication: unsupported_content_type:text/markdown; charset=utf-8",
+          "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authorization: unsupported_content_type:text/markdown; charset=utf-8",
+          "https://developers.facebook.com/documentation/ads-commerce/marketing-api/collaborative-ads/managed-partner-ads/api-guide/prerequisites/generate-access-token-system-user: unsupported_content_type:text/markdown; charset=utf-8",
+          "https://developers.facebook.com/documentation/ads-commerce/marketing-api/reference/business/system_user_access_tokens: unsupported_content_type:text/markdown; charset=utf-8",
+          "https://developers.facebook.com/documentation/ads-commerce/conversions-api/guides/salesforce-webhooks: unsupported_content_type:text/markdown; charset=utf-8",
+          "https://developers.facebook.com/documentation/ads-commerce/marketing-api/ads-webhooks/ad-recommendations: http_500",
+          "https://developers.facebook.com/documentation/ads-commerce/marketing-api/ads-webhooks/ads-webhooks-overview: http_500",
+          "https://developers.facebook.com/documentation/ads-commerce/marketing-api/ads-webhooks/creative-fatigue: http_500",
+          "https://developers.facebook.com/documentation/ads-commerce/marketing-api/ads-webhooks/effective-status: http_500",
+          "https://developers.facebook.com/documentation/ads-commerce/marketing-api/ads-webhooks/in-process-ad-objects: http_500",
+          "https://developers.facebook.com/documentation/ads-commerce/marketing-api/ads-webhooks/setup/get-started: http_500",
+          "https://developers.facebook.com/documentation/ads-commerce/marketing-api/ads-webhooks/subscriptions: http_500"
+        ]
+      },
+      "last_checked": "2026-08-18T14:19:32.598018"
+    },
+    {
+      "id": 71,
+      "app_name": "Notion",
+      "category": "Productivity and Project Management",
+      "description": "All-in-one workspace for notes, tasks, and databases.",
+      "auth_methods": [
+        "OAuth2",
+        "API Key",
+        "Bearer Token"
+      ],
+      "credential_model": "self-serve",
+      "self_serve": true,
+      "free_or_trial": null,
+      "paid_plan_required": null,
+      "admin_approval_required": null,
+      "partner_or_contact_sales": null,
+      "access_model": "Self-serve Free",
+      "api_types": [
+        "REST",
+        "Webhook"
+      ],
+      "api_breadth": "Moderate",
+      "api_notes": "Pages, databases, and blocks.",
+      "mcp_available": true,
+      "mcp_type": "Official MCP",
+      "mcp_url": "https://developers.notion.com/guides/get-started/overview",
+      "buildability": "Buildable now",
+      "main_blocker": null,
+      "buildability_reason": "Public moderate API with OAuth2, API Key, Bearer Token authentication. Self-serve access via Self-serve Free.",
+      "evidence": [
+        {
+          "claim": "OAuth2 authentication",
+          "url": "https://developers.notion.com/docs/authorization",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://developers.notion.com/guides/get-started/overview",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation mentions API key authentication.",
+          "url": "https://developers.notion.com/guides/get-started/overview",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation mentions Bearer token authentication.",
+          "url": "https://developers.notion.com/guides/get-started/overview",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://developers.notion.com/guides/get-started/overview",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://developers.notion.com/guides/get-started/overview",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://developers.notion.com/guides/get-started/overview",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://developers.notion.com/guides/get-started/authorization",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions API key authentication.",
+          "url": "https://developers.notion.com/guides/get-started/authorization",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://developers.notion.com/guides/get-started/authorization",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://developers.notion.com/guides/get-started/authorization",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://developers.notion.com/guides/data-apis/working-with-comments",
+          "source_type": "third_party"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://developers.notion.com/guides/data-apis/working-with-comments",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://developers.notion.com/guides/data-apis/working-with-page-content",
+          "source_type": "official_mcp"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://developers.notion.com/guides/data-apis/working-with-views",
+          "source_type": "official_mcp"
+        }
+      ],
+      "confidence": "High",
+      "research_status": "success",
+      "source_discovery": {
+        "official_base_url": "https://developers.notion.com",
+        "retrieved_pages": 5,
+        "source_count": 5,
+        "errors": []
+      },
+      "last_checked": "2026-08-18T14:19:32.598018"
+    },
+    {
+      "id": 73,
+      "app_name": "Linear",
+      "category": "Productivity and Project Management",
+      "description": "Issue tracking and project management for software teams.",
+      "auth_methods": [
+        "API Key",
+        "OAuth2"
+      ],
+      "credential_model": "self-serve",
+      "self_serve": true,
+      "free_or_trial": null,
+      "paid_plan_required": null,
+      "admin_approval_required": null,
+      "partner_or_contact_sales": null,
+      "access_model": "Self-serve Free",
+      "api_types": [
+        "GraphQL",
+        "Webhook"
+      ],
+      "api_breadth": "Moderate",
+      "api_notes": "Issues, projects, and teams.",
+      "mcp_available": false,
+      "mcp_type": "No MCP Found",
+      "mcp_url": null,
+      "buildability": "Buildable now",
+      "main_blocker": null,
+      "buildability_reason": "Public moderate API with API Key, OAuth2 authentication. Self-serve access via Self-serve Free.",
+      "evidence": [
+        {
+          "claim": "GraphQL API",
+          "url": "https://developers.linear.app/docs/graphql/",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://linear.app/developers",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions API key authentication.",
+          "url": "https://linear.app/developers",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions GraphQL.",
+          "url": "https://linear.app/developers",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://linear.app/developers",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://linear.app/developers/oauth-2-0-authentication",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions GraphQL.",
+          "url": "https://linear.app/developers/oauth-2-0-authentication",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://linear.app/developers/oauth-2-0-authentication",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://linear.app/developers/oauth-actor-authorization",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions GraphQL.",
+          "url": "https://linear.app/developers/oauth-actor-authorization",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://linear.app/developers/oauth-actor-authorization",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://linear.app/developers/file-storage-authentication",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions API key authentication.",
+          "url": "https://linear.app/developers/file-storage-authentication",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions GraphQL.",
+          "url": "https://linear.app/developers/file-storage-authentication",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://linear.app/developers/file-storage-authentication",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://linear.app/developers/oauth-app-manifests",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions GraphQL.",
+          "url": "https://linear.app/developers/oauth-app-manifests",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://linear.app/developers/oauth-app-manifests",
+          "source_type": "official_api_docs"
+        }
+      ],
+      "confidence": "High",
+      "research_status": "success",
+      "source_discovery": {
+        "official_base_url": "https://linear.app/developers",
+        "retrieved_pages": 5,
+        "source_count": 5,
+        "errors": []
+      },
+      "last_checked": "2026-08-18T14:19:32.598018"
+    },
+    {
+      "id": 11,
+      "app_name": "Zendesk",
+      "category": "Support and Helpdesk",
+      "description": "Customer service platform with ticketing and support.",
+      "auth_methods": [
+        "OAuth2",
+        "Bearer Token"
+      ],
+      "credential_model": "self-serve",
+      "self_serve": true,
+      "free_or_trial": null,
+      "paid_plan_required": null,
+      "admin_approval_required": null,
+      "partner_or_contact_sales": null,
+      "access_model": "Self-serve Free",
+      "api_types": [
+        "REST",
+        "Webhook"
+      ],
+      "api_breadth": "Broad",
+      "api_notes": "Covers tickets, users, organizations, and more.",
+      "mcp_available": false,
+      "mcp_type": "No MCP Found",
+      "mcp_url": null,
+      "buildability": "Buildable now",
+      "main_blocker": null,
+      "buildability_reason": "Public broad API with OAuth2, Bearer Token authentication. Self-serve access via Self-serve Free.",
+      "evidence": [
+        {
+          "claim": "OAuth2 authentication",
+          "url": "https://developer.zendesk.com/documentation/ticketing/using-the-zendesk-api/authentication/",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://developer.zendesk.com/documentation/",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://developer.zendesk.com/documentation/",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://developer.zendesk.com/documentation/authentication/",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://developer.zendesk.com/documentation/api-basics/getting-started/exploring-zendesk-apis-with-postman/",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions Bearer token authentication.",
+          "url": "https://developer.zendesk.com/documentation/api-basics/getting-started/exploring-zendesk-apis-with-postman/",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://developer.zendesk.com/documentation/api-basics/getting-started/exploring-zendesk-apis-with-postman/",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://developer.zendesk.com/api-reference/",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://developer.zendesk.com/api-reference/widget-messaging/web/core/",
+          "source_type": "official_api_docs"
+        }
+      ],
+      "confidence": "High",
+      "research_status": "success",
+      "source_discovery": {
+        "official_base_url": "https://developer.zendesk.com",
+        "retrieved_pages": 5,
+        "source_count": 5,
+        "errors": []
+      },
+      "last_checked": "2026-08-18T14:19:32.598018"
+    },
+    {
+      "id": 12,
+      "app_name": "Intercom",
+      "category": "Support and Helpdesk",
+      "description": "Conversational support and marketing platform.",
+      "auth_methods": [
+        "OAuth2",
+        "Bearer Token"
+      ],
+      "credential_model": "self-serve",
+      "self_serve": true,
+      "free_or_trial": null,
+      "paid_plan_required": null,
+      "admin_approval_required": null,
+      "partner_or_contact_sales": null,
+      "access_model": "Self-serve Free",
+      "api_types": [
+        "REST",
+        "Webhook"
+      ],
+      "api_breadth": "Broad",
+      "api_notes": "Conversations, users, contacts, and more.",
+      "mcp_available": true,
+      "mcp_type": "Official MCP",
+      "mcp_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/rest-apis/build-your-own-reports",
+      "buildability": "Buildable now",
+      "main_blocker": null,
+      "buildability_reason": "Public broad API with OAuth2, Bearer Token authentication. Self-serve access via Self-serve Free.",
+      "evidence": [
+        {
+          "claim": "OAuth2 authentication",
+          "url": "https://developers.intercom.com/building-apps/docs/authentication",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://developers.intercom.com",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions OAuth authentication.",
+          "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/rest-apis/build-your-own-reports",
+          "source_type": "official_auth_docs"
+        },
+        {
+          "claim": "Documentation mentions a REST API.",
+          "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/rest-apis/build-your-own-reports",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions webhooks.",
+          "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/rest-apis/build-your-own-reports",
+          "source_type": "official_api_docs"
+        },
+        {
+          "claim": "Documentation mentions MCP (Model Context Protocol).",
+          "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/rest-apis/build-your-own-reports",
+          "source_type": "official_mcp"
+        }
+      ],
+      "confidence": "High",
+      "research_status": "success",
+      "source_discovery": {
+        "official_base_url": "https://developers.intercom.com",
+        "retrieved_pages": 2,
+        "source_count": 2,
+        "errors": []
+      },
+      "last_checked": "2026-08-18T14:19:32.598018"
+    }
+  ]
+}

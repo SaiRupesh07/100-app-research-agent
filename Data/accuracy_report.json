@@ -1,0 +1,49 @@
+{
+  "status": "complete",
+  "generated": "2026-08-18T16:14:12.921495",
+  "summary": {
+    "total_records": 90,
+    "completed_reviews": 90,
+    "pending_reviews": 0
+  },
+  "accuracy": {
+    "total_checks": 90,
+    "correct": 90,
+    "incorrect": 0,
+    "ambiguous": 0,
+    "accuracy_percent": 100.0,
+    "status": "complete"
+  },
+  "field_statistics": {
+    "auth_methods": {
+      "total": 20,
+      "correct": 20,
+      "incorrect": 0,
+      "ambiguous": 0
+    },
+    "access_model": {
+      "total": 20,
+      "correct": 20,
+      "incorrect": 0,
+      "ambiguous": 0
+    },
+    "api_breadth": {
+      "total": 20,
+      "correct": 20,
+      "incorrect": 0,
+      "ambiguous": 0
+    },
+    "buildability": {
+      "total": 20,
+      "correct": 20,
+      "incorrect": 0,
+      "ambiguous": 0
+    },
+    "mcp_available": {
+      "total": 10,
+      "correct": 10,
+      "incorrect": 0,
+      "ambiguous": 0
+    }
+  }
+}

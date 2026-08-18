@@ -1,0 +1,139 @@
+Close | failed | evidence=1 | confidence=Medium
+  - official_auth_docs : https://developer.close.com/getting-started/#authentication
+
+DealCloud | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://docs.dealcloud.com
+
+Pylon | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://docs.pylon.com
+
+LiveAgent | failed | evidence=1 | confidence=Medium
+  - official_docs : https://www.liveagent.com/api/
+
+Gorgias | partial | evidence=1 | confidence=Medium
+  - official_auth_docs : https://developers.gorgias.com/docs/authentication
+
+Gladly | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://developers.gladly.com
+
+Lark | partial | evidence=1 | confidence=Medium
+  - official_docs : https://open.larksuite.com/documentation
+
+Pumble | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://pumble.com/api
+
+GoHighLevel | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://highlevel.stoplight.io/
+
+systeme.io | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://systeme.io/api
+
+Pinterest | partial | evidence=1 | confidence=Medium
+  - official_auth_docs : https://developers.pinterest.com/docs/api/authentication/
+
+Threads | failed | evidence=1 | confidence=Medium
+  - official_docs : https://developers.facebook.com/docs/threads
+
+BigCommerce | failed | evidence=1 | confidence=Medium
+  - official_docs : https://developer.bigcommerce.com/api-docs
+
+Salesforce Commerce Cloud | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://developer.salesforce.com/docs/commerce
+
+Gumroad | partial | evidence=1 | confidence=Medium
+  - official_docs : https://app.gumroad.com/api
+
+Amazon Selling Partner API | unknown | evidence=1 | confidence=Medium
+  - official_auth_docs : https://developer-docs.amazon.com/sp-api/docs/authentication
+
+fanbasis | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://fanbasis.com/api
+
+DataForSEO | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://docs.dataforseo.com/
+
+SE Ranking | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://seranking.com/api/
+
+Ahrefs | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://ahrefs.com/api
+
+MrScraper | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://docs.mrscraper.com
+
+Apify | failed | evidence=1 | confidence=Medium
+  - official_auth_docs : https://docs.apify.com/api/v2#/introduction/authentication
+
+Sherlock | unknown | evidence=1 | confidence=Medium
+  - official_github : https://github.com/sherlock-project/sherlock
+
+Waterfall.io | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://waterfall.io/api
+
+Clay | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://clay.com/api
+
+Vercel | failed | evidence=1 | confidence=Medium
+  - official_api_docs : https://vercel.com/docs/rest-api
+
+Airtable | partial | evidence=1 | confidence=Medium
+  - official_auth_docs : https://airtable.com/developers/web/api/authentication
+
+Asana | success | evidence=2 | confidence=Medium
+  - official_auth_docs : https://developers.asana.com/docs/oauth
+  - official_api_docs : https://developers.asana.com
+
+Smartsheet | partial | evidence=1 | confidence=Medium
+  - official_docs : https://smartsheet.com/developers
+
+Binance | partial | evidence=1 | confidence=Medium
+  - official_docs : https://binance-docs.github.io/apidocs/
+
+Paygent Connect | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://paygent.com/connect
+
+iPayX | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://ipayx.ai/docs
+
+QuickBooks | partial | evidence=1 | confidence=Medium
+  - official_auth_docs : https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2-0
+
+Brex | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://developer.brex.com
+
+Ramp | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://docs.ramp.com
+
+PitchBook | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://pitchbook.com/api
+
+NotebookLM | partial | evidence=1 | confidence=Medium
+  - official_docs : https://cloud.google.com/gemini
+
+Otter AI | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://help.otter.ai
+
+Fathom | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://fathom.video/api
+
+Consensus | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://consensus.app/api
+
+Reducto | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://reducto.ai/api
+
+Devin | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://docs.devin.ai
+
+Higgsfield | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://higgsfield.ai/cli
+
+Mermaid CLI | partial | evidence=1 | confidence=Medium
+  - official_github : https://github.com/mermaid-js/mermaid-cli
+
+YouTube Transcript | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://transcriptapi.com
+
+Grain | unknown | evidence=1 | confidence=Medium
+  - official_docs : https://grain.com/api
+
